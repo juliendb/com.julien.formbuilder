@@ -118,13 +118,13 @@ You can also modify the file ```lib/validator.js``` to add or change the formbui
 	* `label` : [Boolean] assign a label with value title, by default `true`
 	* `hint` : [String] assign a placeholder for (TextField or TextArea)
 	* `type` : [String] assign a type for field, see below the types
-	* `rules` : [String] assign rules for validation form, seperate by `|`
+	* `rules` : [String] assign rules for validation form, seperate by `|`,  exemple `"isset|alpha_numeric|min_length[4]|max_length[50]"`
 	* `required` : [Boolean] assign automatically rules for validation form, see below the types
 	* `defaultValue` : [Value] assign default value for field
-	* `rows` :  [Array] assign list values for field (type `select`), exemple `["choice A", "choice B", "choice C"]`
-	* `defaultDate` : [String] assign default date for field type (`date` or `time`) format english, exemple ("MM-DD-YYYY" or HH:mm:ss")
-	* `formatDate` : [String] assign format date for field type `date`, by default `"DD-MM-YYYY"`
-	* `formatTime` : [String] assign format date for field type `time`, by default `"HH:mm:ss"`
+	* `rows` :  [Array] assign list values for field type `"select"`, exemple `["choice A", "choice B", "choice C"]`
+	* `defaultDate` : [String] assign default date for field type (`"date"` or `"time"`) format english, exemple ("MM-DD-YYYY" or HH:mm:ss")
+	* `formatDate` : [String] assign format date for field type `"date"`, by default `"DD-MM-YYYY"`
+	* `formatTime` : [String] assign format date for field type `"time"`, by default `"HH:mm:ss"`
 	* `properties` : [Object] assign style properties for field input (`TextField`, `TextArea`, `Switch`)
 	* `propertiesLabel` : [Object] assign style properties for label
 
@@ -147,6 +147,9 @@ You can also modify the file ```lib/validator.js``` to add or change the formbui
 	* `name` : [String] name of field
 	* `title` : [String] text for error
 	* `show` : [Boolean] show error, by default false
+
+* `submitFields` : return rows validation form
+	* `callback` : [Function] assign function return rows validation form
 
 * `getField` : return field object
 	* [String] name of field
@@ -204,13 +207,13 @@ You can also modify the file ```lib/validator.js``` to add or change the formbui
 
 if the option `required` is true, this fields have already rules to which may be added others.
 
-* `email` : "isset|email"
-* `phone` : "isset|phone"
-* `number` : "isset|number"
-* `integer` : "isset|integer"
-* `url` : "isset|url"
-* `switch ; "accept"
-* `defaut` : "isset"
+* `email` : `"isset|email"`
+* `phone` : `"isset|phone"`
+* `number` : `"isset|number"`
+* `integer` : `"isset|integer"`
+* `url` : `"isset|url"`
+* `switch` : `"accept"`
+* `defaut` : `"isset"`
 
 
 ### Parameters
@@ -231,4 +234,4 @@ if the option `required` is true, this fields have already rules to which may be
 
 ## Changelog
 
-* 1.0: Initial commit
+* 1.0 : Initial commit
