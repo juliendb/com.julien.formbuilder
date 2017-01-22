@@ -10,7 +10,7 @@ Use ```underscorejs``` ```momentjs```
 - [Quick Start](#quick-start)
 - [Documentation](#documentation)
 - [Customization](#customization)
-- [Methods & Parameters](#methodology)
+- [Methods & Parameters](#methods&parameters)
 - [Changelog](#changelog)
 
 ## Features
@@ -190,18 +190,18 @@ You can also modify the file ```lib/validator.js``` to add or change the formbui
 
 if the option `required` is true, this fields have already rules to which may be added others.
 
-`email` : "isset|email"
-`phone` : "isset|phone"
-`number` : "isset|number"
-`integer` : "isset|integer"
-`url` : "isset|url"
-`switch ; "accept"
-`defaut` : "isset"
+* `email` : "isset|email"
+* `phone` : "isset|phone"
+* `number` : "isset|number"
+* `integer` : "isset|integer"
+* `url` : "isset|url"
+* `switch ; "accept"
+* `defaut` : "isset"
 
 
 ### Parameters
 
-* `lang` : changes languages for validation errors messages `en` or `fr`, by default `en`
+* `lang` : changes languages for validation errors messages `"en"` or `"fr"`, by default `"en"`
 * `title` : set title like `setTitle();`
 * `field` : set field like `setField();`
 * `fields` : set fields like `setFields();`
