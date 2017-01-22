@@ -1,0 +1,13 @@
+{
+    "id": "com.julien.formbuilder",
+    "name": "com.julien.formbuilder",
+    "description" : "construct forms",
+    "author": "Julien De Bisschop",
+    "version": "1.0.0",
+    "copyright":"2017",
+    "license":"",
+    "min-alloy-version": "1.3",
+    "min-titanium-version":"3.2",
+    "tags":"",
+    "platforms":"android,ios"
+}

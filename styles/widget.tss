@@ -1,0 +1,100 @@
+"ScrollView":{
+	layout: "vertical"
+}
+"View":{
+	layout: "vertical"
+}
+"TextField":{
+	height: "40dp",
+	backgroundColor: "#fff",
+	color: "#000",
+}
+"TextArea":{
+	height: "100dp",
+	backgroundColor: "#fff",
+	color: "#000"
+}
+
+
+
+".form-group": {
+	bottom: "4dp",
+	top: "4dp",
+	left: "3%",
+	width: "94%",
+	height: Ti.UI.SIZE,
+	layout: "horizontal",
+}
+".form-title": {
+	bottom: "5dp",
+	width: Ti.UI.FILL,
+	height: Ti.UI.SIZE,
+	layout: "horizontal",
+	font: {
+		fontSize: "20dp",
+		fontWeight: "semibold",
+	},
+	color: "#222"
+}
+".form-label": {
+	layout: "vertical",
+	width: "99.666666%",
+	height: Ti.UI.SIZE,
+	font: {
+		fontSize: "14dp",
+	},
+	color: "#222"
+}
+".form-error": {
+	top: "2dp",
+	color: "#f00",
+	width: "99.666666%",
+	height: 0,
+	opacity: 0,
+	text: "",
+	color: "#f00"
+}
+".form-control": {
+	top: "5dp",
+	layout: "horizontal",
+	width: "100%",
+	height: Ti.UI.SIZE,
+	backgroundColor: "#fff",
+	borderColor: "#ccc",
+	borderRadius: "4dp",
+	borderWidth: "1dp",
+}
+".form-input": {
+	top: "5dp",
+	bottom: "5dp",
+	left: "5dp",
+	right: "5dp",
+	width: Ti.UI.FILL
+}
+".form-switch": {
+	onTintColor: "#337ab7"
+}
+".form-submit": {
+	font: {
+		fontSize: "14dp",
+		fontWeight: "semibold",
+	},
+	color: "#fff",
+	width: Ti.UI.FILL,
+	height: "44dp",
+	backgroundColor: "#337ab7",
+	borderRadius: "4dp",
+}
+
+
+
+"#formView": {
+	width: Ti.UI.FILL,
+	height: Ti.UI.SIZE,
+	layout: "vertical"
+}
+"#formSubmit": {
+	width: Ti.UI.FILL,
+	height: Ti.UI.SIZE,
+	layout: "vertical"
+}

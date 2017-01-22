@@ -1,0 +1,6 @@
+<Alloy>
+	<ScrollView id="formScrollView">
+		<View id="formView" />
+		<View id="formSubmit" />
+	</ScrollView>
+</Alloy>
