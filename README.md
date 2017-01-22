@@ -8,7 +8,6 @@ Use ```underscorejs``` ```momentjs```
 - [Features](#features)
 - [Working Example](#working-example)
 - [Quick Start](#quick-start)
-- [Documentation](#documentation)
 - [Customization](#customization)
 - [Methodology](#methodology)
 - [Changelog](#changelog)
